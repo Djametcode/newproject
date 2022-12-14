@@ -223,11 +223,18 @@ const Header = () => {
       <div className=" flex gap-2 p-5 text-slate-400">
         <CameraAltOutlinedIcon className=" cursor-pointer" onClick={alertCamera}/>
         <SearchOutlinedIcon className=" cursor-pointer" onClick={expandSearch}/>
-        <MoreVertOutlinedIcon className=" cursor-pointer"/>
+        <MoreVertOutlinedIcon className=" cursor-pointer" onClick={expandOption}/>
       </div>
     </div>
   )
 }
+
+function expandOption () {
+  const element = document.getElementById('option');
+  element.style.display = 'block';
+
+}
+
 const ExpandSearch = () => {
   return (
     <div className=" bg-slate-600 p-4 flex flex-col gap-3">
@@ -301,6 +308,18 @@ const Header2 = () => {
   )
 }
 
+const Option = () => {
+  return (
+    <div className=" flex flex-col text-white bg-slate-600 font-sand p-1">
+      <a className=" p-1 pl-2" href="#">Grup Anyar</a>
+      <a className=" p-1 pl-2" href="#">Siaran baru</a>
+      <a className=" p-1 pl-2" href="#">Perangkat tertaut</a>
+      <a className=" p-1 pl-2" href="#">Pesan berbintang</a>
+      <a className=" p-2 pl-2" href="#">Setelan</a>
+    </div>
+  )
+}
+
 const Whatsapp = () => {
   return (
     <div id="main" className=" md:hidden">
@@ -310,6 +329,9 @@ const Whatsapp = () => {
       </div>
       <div id="ExpandSearch" className="hidden">
         <ExpandSearch/>
+      </div>
+      <div id="option" className=" absolute top-0 right-0 z-30 w-52 text-sm hidden">
+        <Option /> 
       </div>
       <Main />
     </div>
