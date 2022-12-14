@@ -275,10 +275,16 @@ const ExpandSearch = () => {
 function expandSearch () {
   const element = document.getElementById('ExpandSearch');
   element.style.display = 'block';
+
+  const header = document.getElementById('header');
+  header.style.display = 'none';
 }
 function closeExpand () {
   const element = document.getElementById('ExpandSearch');
   element.style.display = 'none';
+
+  const header = document.getElementById('header');
+  header.style.display = 'block';
 }
 function alertCamera () {
   window.alert('Belum bisa ngoding ini ya tod')
@@ -286,24 +292,24 @@ function alertCamera () {
 
 const Header2 = () => {
   return (
-    <div className=" flex justify-around bg-gray-800 m-0 text-slate-400 font-sand">
+    <div className=" flex justify-around bg-gray-800 m-0 text-slate-400 p-1 font-sand">
       <GroupsIcon className=" hover:bg-slate-600 translate-y-1 translate-x-2 w-full"/>
-      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ml-3">Chat</p>
-      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Status</p>
-      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Panggilan</p>
+      <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ml-3">Chat</a>
+      <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Status</a>
+      <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ">Panggilan</a>
     </div>
   )
 }
 
 const Whatsapp = () => {
   return (
-    <div className=" md:hidden">
-      <div className=" sticky top-0 z-20">
+    <div id="main" className=" md:hidden">
+      <div id="header" className=" sticky top-0 z-20">
         <Header />
         <Header2 />
-      <div id="ExpandSearch" className=" fixed top-0 w-full hidden">
-        <ExpandSearch/>
       </div>
+      <div id="ExpandSearch" className="hidden">
+        <ExpandSearch/>
       </div>
       <Main />
     </div>
