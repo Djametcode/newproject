@@ -9,7 +9,7 @@ import DoneAllIcon from '@mui/icons-material/DoneAll';
 const Main = () => {
   return (
     <>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Djamet Coder</p>
@@ -22,7 +22,7 @@ const Main = () => {
         <p className=" z-10 absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Konco Asu</p>
@@ -35,7 +35,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Wong Ilang</p>
@@ -48,7 +48,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Slamet Kopling</p>
@@ -61,7 +61,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Bos Jangkrik</p>
@@ -74,7 +74,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>Virtual</p>
@@ -87,7 +87,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -100,7 +100,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -113,7 +113,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -126,7 +126,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -139,7 +139,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -152,7 +152,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -165,7 +165,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -178,7 +178,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -191,7 +191,7 @@ const Main = () => {
         <p className=" absolute right-4 translate-y-2 text-xs">22:10</p>
       </div>
     </div>
-    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand">
+    <div className=" bg-slate-800 text-slate-400 flex p-3 font-sand hover:bg-slate-500">
       <img className=" rounded-full w-14 h-14 mr-5" src={Img} alt="kk" srcset="" />
       <div className=" mt-2">
         <p>+6285710007432</p>
@@ -224,10 +224,10 @@ const Header = () => {
 const Header2 = () => {
   return (
     <div className=" flex justify-around bg-gray-800 m-0 text-slate-400 font-sand">
-      <GroupsIcon className=" hover:bg-slate-400 translate-y-1 translate-x-2 w-full"/>
-      <p className=" hover:text-green-600 hover:bg-slate-400 w-full text-center p-1">Chat</p>
-      <p className=" hover:text-green-600 hover:bg-slate-400 w-full text-center p-1">Status</p>
-      <p className=" hover:text-green-600 hover:bg-slate-400 w-full text-center p-1">Panggilan</p>
+      <GroupsIcon className=" hover:bg-slate-600 translate-y-1 translate-x-2 w-full"/>
+      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ml-3">Chat</p>
+      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Status</p>
+      <p className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Panggilan</p>
     </div>
   )
 }
