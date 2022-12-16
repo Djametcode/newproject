@@ -13,6 +13,7 @@ import LinkIcon from '@mui/icons-material/Link';
 import GifIcon from '@mui/icons-material/Gif';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
 import SubjectIcon from '@mui/icons-material/Subject';
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -302,7 +303,7 @@ const Header2 = () => {
     <div className=" flex justify-around bg-gray-800 m-0 text-slate-400 p-1 font-sand">
       <GroupsIcon className=" hover:bg-slate-600 translate-y-1 translate-x-2 w-full"/>
       <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ml-3">Chat</a>
-      <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1">Status</a>
+      <Link className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1" to={'/status'}>Status</Link>
       <a className=" hover:text-green-600 hover:bg-slate-600 w-full text-center p-1 ">Panggilan</a>
     </div>
   )
